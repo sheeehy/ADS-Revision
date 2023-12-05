@@ -13,8 +13,9 @@ public class ArrayListExample {
         ArrayList<String> names = new ArrayList<>();
 
         // Add
-        names.add("Jack");
-        names.add("Nicole");
+        names.add("Red");
+        names.add("Red");
+        names.add("Red");
 
         // Get
         names.get(0);
@@ -27,8 +28,8 @@ public class ArrayListExample {
         names.size();
         System.out.println(names.size());
 
-        // Remove
-        names.remove(1);
+        // Remove by Index or String?
+        names.remove("");
 
         // Clear
         names.clear();
@@ -40,5 +41,6 @@ public class ArrayListExample {
         for (int i = 0; i < names.size(); i++) {
             System.out.println(names.get(i));
         }
+
     }
 }

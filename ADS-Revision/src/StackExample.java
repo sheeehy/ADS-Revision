@@ -19,7 +19,7 @@ public class StackExample {
         names.peek();
 
         // Search - Returns the elements index. The top being "1". -1 = Not Found
-        names.search("One");
+        System.out.println(names.search("Two"));
     }
 
 }

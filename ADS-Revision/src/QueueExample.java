@@ -14,15 +14,21 @@ public class QueueExample {
         names.add("Sack");
         names.add("Rack");
 
-        // Remove element at Front of Queue
-        names.remove();
+        System.out.println(names.poll());
 
-        // Peek
-        names.peek();
-        System.out.println(names.peek());
+        System.out.println(names);
 
-        // Size
-        names.size();
-        System.out.println(names.size());
+        /*
+         * // Remove element at Front of Queue
+         * names.remove();
+         * 
+         * // Peek
+         * names.peek();
+         * System.out.println(names.peek());
+         * 
+         * // Size
+         * names.size();
+         * System.out.println(names.size());
+         */
     }
 }
